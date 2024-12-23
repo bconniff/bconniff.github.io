@@ -15,14 +15,18 @@
 </svelte:head>
 
 <Card title="About Me">
-  <img alt="Headshot" src="{base}/headshot.jpg" class="w-64 rounded-lg mx-auto outline outline-1 outline-offset-2 outline-zinc-300"/>
+  <div class="md:flex">
+    <img alt="Headshot" src="{base}/headshot.jpg" class="w-64 rounded-md mx-auto"/>
 
-  <Section title="My info">
-    <P>
-      I'm Brendan Conniff, a software developer living in Summerville, SC. My
-      hobbies include running, video games, and programming. You can find my
-      <A href="{base}/resume">resumé for more info</A>, or check out the links
-      in the navigation at the top of the page to find me on other sites.
-    </P>
-  </Section>
+    <div class="md:flex-grow md:ml-4 md:-mt-4">
+      <Section title="My info">
+        <P>
+          I'm Brendan Conniff, a software developer living in Summerville, SC. My
+          hobbies include running, video games, and programming. You can find my
+          <A href="{base}/resume">resumé for more info</A>, or check out the links
+          in the navigation at the top of the page to find me on other sites.
+        </P>
+      </Section>
+    </div>
+  </div>
 </Card>
