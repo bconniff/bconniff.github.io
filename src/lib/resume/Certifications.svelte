@@ -3,6 +3,7 @@
 <script>
   import Card from '$lib/Card.svelte';
   import Section from '$lib/Section.svelte';
+  import Fa from 'svelte-fa';
 
   export let title = "Certifications";
   export let authorities = [];
@@ -14,6 +15,15 @@
         border={authority.border}
         header={authority.header}
         title={authority.by}>
+
+      <span slot="icon">
+        {#if authority.icon}
+          <Fa icon={authority.icon} class="ml-2 inline" />
+        {/if}
+        {#if authority.svg}
+        <object type="image/svg+xml" title={authority.by} data="{authority.svg}" class="ml-2 h-[1.25rem]"></object>
+        {/if}
+      </span>
 
       <ul class="grid lg:grid-cols-2 mt-2 leading-snug">
         {#each authority.certs as cert}

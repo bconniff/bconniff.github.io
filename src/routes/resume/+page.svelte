@@ -6,18 +6,26 @@
   import Experiences from '$lib/resume/Experiences.svelte';
   import Certifications from '$lib/resume/Certifications.svelte';
   import Skills from '$lib/resume/Skills.svelte';
+  import { base } from '$app/paths';
+
+  import {
+    faJava,
+    faSalesforce,
+  } from '@fortawesome/free-brands-svg-icons';
 
   const authorities = [
     {
       by: 'Mulesoft',
+      svg: `${base}/mule.svg`,
       border: 'border-sky-500',
       header: 'text-sky-500',
       certs: [
-        { title: 'Mulesoft Developer I', startDate: 'Jan 2023' },
+        { title: 'Mulesoft Developer I', startDate: '2023' },
       ]
     },
     {
       by: 'Salesforce',
+      icon: faSalesforce,
       border: 'border-indigo-500',
       header: 'text-indigo-500',
       certs: [
@@ -52,10 +60,11 @@
     },
     {
       by: 'Oracle',
+      icon: faJava,
       border: 'border-rose-800',
       header: 'text-rose-800',
       certs: [
-        { title: 'Java SE 6 Certified Programmer', startDate: 'Sep 2012' }
+        { title: 'Java SE 6 Certified Programmer', startDate: '2012' }
       ]
     }
   ];

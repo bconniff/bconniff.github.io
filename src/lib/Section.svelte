@@ -9,7 +9,7 @@
 </script>
 
 <div class="border-l-4 px-4 mt-4 {border}">
-  <div class="sm:flex {divider ? 'border-b border-zinc-300 mb-2 pb-2' : ''}">
+  <div class="flex flex-wrap {divider ? 'border-b border-zinc-300 mb-2 pb-2' : ''}">
     <div class="leading-tight">
       <h2 class="font-light text-xl font-serif {header}">
         <span>{title}</span>
@@ -19,7 +19,11 @@
       {/if}
     </div>
 
-    <div class="sm:grow">
+    <div class="text-lg self-center {header}">
+      <slot name="icon" />
+    </div>
+
+    <div class="grow w-full sm:w-auto">
       <slot name="header-right" />
     </div>
   </div>
