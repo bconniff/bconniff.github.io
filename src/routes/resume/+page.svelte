@@ -192,10 +192,8 @@
   <meta name="description" content="Resume for Brendan Conniff, Sr Manager at Fortimize" />
 </svelte:head>
 
-<Container name="Brendan Conniff" email="brendan.conniff@gmail.com">
-  <Bio title="Summary" {bio} />
-  <Experiences title="Work Experience" experiences={work} />
-  <Experiences title="Education" experiences={education} />
-  <Certifications title="Certifications" {authorities} />
-  <Skills title="Additional Skills" {skills} />
-</Container>
+<Bio title="Summary" {bio} />
+<Experiences title="Work Experience" experiences={work} />
+<Experiences title="Education" experiences={education} />
+<Certifications title="Certifications" {authorities} />
+<Skills title="Additional Skills" {skills} />

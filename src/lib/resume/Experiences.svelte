@@ -2,6 +2,8 @@
 
 <script>
   import Card from '$lib/Card.svelte';
+  import Section from '$lib/Section.svelte';
+  import P from '$lib/P.svelte';
 
   export let title = "Experiences"
   export let experiences = [
@@ -26,32 +28,29 @@
 {#if experiences.length}
   <Card title={title}>
     {#each experiences as experience}
-      <div class="border-l-4 px-4 mt-4 {experience.border}">
-        <div class="sm:flex border-b mb-2 pb-2 border-zinc-300">
-          <div class="leading-tight">
-            <h2 class="font-light text-xl font-serif {experience.header}">
-              <span>{experience.name}</span>
-            </h2>
-            <span class="text-sm italic text-zinc-800">{experience.location}</span>
-          </div>
+    <Section
+        divider
+        border={experience.border}
+        header={experience.header}
+        title={experience.name}
+        subtitle={experience.location}>
 
-          <ul class="list-['–_'] pl-4 py-2 leading-relaxed sm:grow sm:list-none sm:pl-0 sm:py-0 sm:leading-normal">
-            {#each experience.positions as position}
-              <li class="sm:text-right">
-                <span>{position.name}</span>
-                <span class="text-indigo-800 ml-2 text-sm">
-                  {position.startDate}
-                  {#if position.endDate}
-                    &ndash; {position.endDate}
-                  {/if}
-                </span>
-              </li>
-            {/each}
-          </ul>
-        </div>
+        <ul slot="header-right" class="list-['–_'] pl-4 py-2 leading-relaxed sm:grow sm:list-none sm:pl-0 sm:py-0 sm:leading-normal">
+          {#each experience.positions as position}
+            <li class="sm:text-right">
+              <span>{position.name}</span>
+              <span class="text-indigo-800 ml-2 text-sm">
+                {position.startDate}
+                {#if position.endDate}
+                  &ndash; {position.endDate}
+                {/if}
+              </span>
+            </li>
+          {/each}
+        </ul>
 
         {#each experience.summary as p}
-          <p class="mt-2 text-justify">{p}</p>
+          <P>{p}</P>
         {/each}
 
         {#if experience.achievements.length}
@@ -62,7 +61,7 @@
             {/each}
           </ul>
         {/if}
-      </div>
+    </Section>
     {/each}
   </Card>
 {/if}

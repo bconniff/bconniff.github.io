@@ -2,6 +2,7 @@
 
 <script>
   import Card from '$lib/Card.svelte';
+  import Section from '$lib/Section.svelte';
 
   export let title = "Certifications";
   export let authorities = [];
@@ -9,9 +10,12 @@
 
 <Card title={title}>
   {#each authorities as authority}
-    <div class="border-l-4 px-4 mt-4 {authority.border}">
-      <h2 class="font-light text-xl font-serif leading-tight {authority.header}">{authority.by}</h2>
-      <ul class="grid lg:grid-cols-2 mt-2 sm:pl-4 leading-snug">
+    <Section
+        border={authority.border}
+        header={authority.header}
+        title={authority.by}>
+
+      <ul class="grid lg:grid-cols-2 mt-2 leading-snug">
         {#each authority.certs as cert}
           <li class="my-1">
             <span class="block sm:inline">{cert.title}</span>
@@ -27,7 +31,7 @@
           </li>
         {/each}
       </ul>
-    </div>
+    </Section>
   {/each}
 </Card>
 

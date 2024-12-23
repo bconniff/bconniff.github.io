@@ -2,6 +2,7 @@
 
 <script>
   import Card from '$lib/Card.svelte';
+  import P from '$lib/P.svelte';
 
   export let title = "Skills"
   export let bio = {
@@ -11,9 +12,9 @@
 </script>
 
 <Card title={title}>
-  <p class="text-justify italic">{bio.headline}</p>
+  <P class="italic">{bio.headline}</P>
 
   {#each bio.summary as p}
-    <p class="mt-2 text-justify">{p}</p>
+    <P>{p}</P>
   {/each}
 </Card>
