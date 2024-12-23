@@ -15,7 +15,7 @@
 </svelte:head>
 
 <Card title="About Me">
-  <img src="/headshot.jpg" class="w-64 rounded-lg mx-auto outline outline-1 outline-offset-2 outline-zinc-300"/>
+  <img alt="Headshot" src="{base}/headshot.jpg" class="w-64 rounded-lg mx-auto outline outline-1 outline-offset-2 outline-zinc-300"/>
 
   <Section title="My info">
     <P>
