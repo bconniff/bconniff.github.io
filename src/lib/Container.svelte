@@ -19,7 +19,8 @@
   export let email = 'invalid@example.com';
   export let year = new Date().getFullYear();
   export let navs = [
-    { icon: faHouse, name: 'Home', href: 'https://www.brendanconniff.com' },
+    { icon: faHouse, name: 'Home', href: '/' },
+    { icon: faAddressCard, name: 'Resume', href: '/resume' },
     { icon: faGithub, name: 'Github', href: 'https://github.com/bconniff' },
     { icon: faLinkedin, name: 'LinkedIn', href: 'https://linkedin.com/in/brendan-conniff' },
     { icon: faSalesforce, name: 'Trailhead', href: 'https://trailhead.salesforce.com/en/me/brendanconniff' },

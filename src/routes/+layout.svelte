@@ -2,6 +2,7 @@
 
 <script>
   import '../app.css';
+  import Container from '$lib/Container.svelte';
 
   let { children } = $props();
 </script>

@@ -1,7 +1,7 @@
 <!-- vim:set ft=html sw=2 sts=2 ts=2: -->
 
 <script>
-  import ResumeCard from '$lib/ResumeCard.svelte';
+  import Card from '$lib/Card.svelte';
 
   export let title = "Experiences"
   export let experiences = [
@@ -24,7 +24,7 @@
 </script>
 
 {#if experiences.length}
-  <ResumeCard title={title}>
+  <Card title={title}>
     {#each experiences as experience}
       <div class="border-l-4 px-4 mt-4 {experience.border}">
         <div class="sm:flex border-b mb-2 pb-2 border-zinc-300">
@@ -64,5 +64,5 @@
         {/if}
       </div>
     {/each}
-  </ResumeCard>
+  </Card>
 {/if}

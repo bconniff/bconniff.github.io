@@ -1,13 +1,13 @@
 <!-- vim:set ft=html sw=2 sts=2 ts=2: -->
 
 <script>
-  import ResumeCard from '$lib/ResumeCard.svelte';
+  import Card from '$lib/Card.svelte';
 
   export let title = "Certifications";
   export let authorities = [];
 </script>
 
-<ResumeCard title={title}>
+<Card title={title}>
   {#each authorities as authority}
     <div class="border-l-4 px-4 mt-4 {authority.border}">
       <h2 class="font-light text-xl font-serif leading-tight {authority.header}">{authority.by}</h2>
@@ -29,5 +29,5 @@
       </ul>
     </div>
   {/each}
-</ResumeCard>
+</Card>
 
