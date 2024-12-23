@@ -2,6 +2,7 @@
 
 <script>
   import Fa from 'svelte-fa'
+  import { base } from '$app/paths';
 
   import {
     faHouse,
@@ -19,8 +20,8 @@
   export let email = 'invalid@example.com';
   export let year = new Date().getFullYear();
   export let navs = [
-    { icon: faHouse, name: 'Home', href: '/' },
-    { icon: faAddressCard, name: 'Resume', href: '/resume' },
+    { icon: faHouse, name: 'Home', href: `${base}/` },
+    { icon: faAddressCard, name: 'Resume', href: `${base}/resume` },
     { icon: faGithub, name: 'Github', href: 'https://github.com/bconniff' },
     { icon: faLinkedin, name: 'LinkedIn', href: 'https://linkedin.com/in/brendan-conniff' },
     { icon: faSalesforce, name: 'Trailhead', href: 'https://trailhead.salesforce.com/en/me/brendanconniff' },
