@@ -11,7 +11,7 @@
 </script>
 
 <div class="md:w-[75%] md:max-w-[1024px] md:mx-auto">
-  <div class="px-2 md:px-8 py-6 text-right text-white">
+  <div class="px-2 md:px-8 my-6 text-right text-white">
     <h1 class="text-3xl text-white font-light font-serif border-b pb-1 mb-1 border-white">{name}</h1>
     <A inverse href="mailto:{email}">{email}</A>
   </div>
