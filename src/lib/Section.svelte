@@ -1,7 +1,7 @@
 <!-- vim:set ft=html sw=2 sts=2 ts=2: -->
 
 <script>
-  export let border = 'border-indigo-300';
+  export let border = 'border-indigo-600';
   export let header = 'text-indigo-600';
   export let title = 'No title';
   export let subtitle = null;

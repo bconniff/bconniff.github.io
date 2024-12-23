@@ -26,8 +26,8 @@
     {
       by: 'Salesforce',
       icon: faSalesforce,
-      border: 'border-indigo-500',
-      header: 'text-indigo-500',
+      border: 'border-blue-500',
+      header: 'text-blue-500',
       certs: [
         { title: 'AI Specialist', startDate: '2024' },
         { title: 'Financial Services Cloud Accredited', startDate: '2024' },
