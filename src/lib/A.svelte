@@ -5,6 +5,7 @@
   export { className as class };
   export let inverse = false;
   export let href;
+  export let target = '_self';
 
   const classes = [
     inverse ? 'text-white' : 'text-sky-700',
@@ -21,6 +22,6 @@
   const classList = classes.join(' ');
 </script>
 
-<a class={classList} href={href}>
+<a class={classList} {href} {target}>
   <slot />
 </a>

@@ -17,7 +17,7 @@
       </li>
     {:else}
       <li class="inline-block p-2">
-        <A inverse href={nav.href}>
+        <A inverse href={nav.href} target={nav.target ?? '_self'}>
           <Fa icon={nav.icon} class="inline-block" /><span class="ml-1 shrink hidden sm:inline">{nav.name}</span>
         </A>
       </li>

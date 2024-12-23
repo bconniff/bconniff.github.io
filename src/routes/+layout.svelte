@@ -23,10 +23,10 @@
   const navs = [
     { icon: faHouse, name: 'Home', href: `${base}/` },
     { icon: faAddressCard, name: 'Resume', href: `${base}/resume` },
-    { icon: faGithub, name: 'Github', href: 'https://github.com/bconniff' },
-    { icon: faLinkedin, name: 'LinkedIn', href: 'https://linkedin.com/in/brendan-conniff' },
-    { icon: faSalesforce, name: 'Trailhead', href: 'https://trailhead.salesforce.com/en/me/brendanconniff' },
-    { icon: faEnvelope, name: 'Email', href: 'mailto:brendan.conniff@gmail.com' },
+    { icon: faGithub, name: 'Github', href: 'https://github.com/bconniff', target: '_blank' },
+    { icon: faLinkedin, name: 'LinkedIn', href: 'https://linkedin.com/in/brendan-conniff', target: '_blank' },
+    { icon: faSalesforce, name: 'Trailhead', href: 'https://trailhead.salesforce.com/en/me/brendanconniff', target: '_blank' },
+    { icon: faEnvelope, name: 'Email', href: 'mailto:brendan.conniff@gmail.com', target: '_blank' },
   ];
 
   let { children } = $props();
