@@ -19,8 +19,8 @@
     },
     {
       by: 'Salesforce',
-      border: 'border-blue-500',
-      header: 'text-blue-500',
+      border: 'border-sky-500',
+      header: 'text-sky-500',
       certs: [
         { title: 'AI Specialist', startDate: '2024' },
         { title: 'Financial Services Cloud Accredited', startDate: '2024' },
@@ -53,8 +53,8 @@
     },
     {
       by: 'Oracle',
-      border: 'border-rose-800',
-      header: 'text-rose-800',
+      border: 'border-rose-800 dark:border-rose-600',
+      header: 'text-rose-800 dark:text-rose-600',
       certs: [
         { title: 'Java SE 6 Certified Programmer', startDate: '2012' }
       ]
@@ -83,20 +83,21 @@
     {
       name: 'Fortimize',
       location: 'Remote',
-      border: 'border-green-600',
-      header: 'text-green-600',
+      border: 'border-green-600 dark:border-green-400',
+      header: 'text-green-600 dark:text-green-400',
       positions: [
         { name: 'Sr Manager & TA', startDate: '2021', endDate: 'Present' },
         { name: 'Manager & TA', startDate: '2020' },
         { name: 'Technical Architect', startDate: '2019' },
       ],
       summary: [
-        `I joined Fortimize as a technical architect and stepped into leading
-        our developer & TA team. I ensure our team is align with best practices
-        to deliver scalable solutions on the Salesforce platform for our
-        clients in the banking and real estate industries. I also design
-        integrations between Salesforce and industry-specific platforms across
-        a wide range of platforms, including Mulesoft, Azure, and custom Apex.`,
+        `I joined Fortimize as a technical architect and stepped into
+        leading our developer & TA team. I ensure our team is aligned
+        with best practices to deliver scalable solutions on the
+        Salesforce platform for our clients in the banking and real
+        estate industries. I also design integrations between Salesforce
+        and industry-specific platforms across a wide range of platforms,
+        including Mulesoft, Azure, and custom Apex.`,
       ],
       achievements: [
         'Technical architect for projects in the real estate space',
@@ -110,8 +111,8 @@
     {
       name: 'Trifecta Technologies',
       location: 'Allentown PA',
-      border: 'border-amber-600',
-      header: 'text-amber-600',
+      border: 'border-amber-600 dark:border-amber-400',
+      header: 'text-amber-600 dark:text-amber-400',
       positions: [
         { name: 'Practice Lead', startDate: '2017', endDate: '2019' },
         { name: 'Sr Dev & Tech Lead', startDate: '2014' },
@@ -142,8 +143,8 @@
     {
       name: 'Radford University',
       location: 'Radford VA',
-      border: 'border-rose-800',
-      header: 'text-rose-800',
+      border: 'border-rose-800 dark:border-rose-600',
+      header: 'text-rose-800 dark:text-rose-600',
       positions: [
         {
           name: 'BS, CS & Physics',
