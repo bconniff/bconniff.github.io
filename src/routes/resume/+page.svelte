@@ -8,15 +8,9 @@
   import Skills from '$lib/resume/Skills.svelte';
   import { base } from '$app/paths';
 
-  import {
-    faJava,
-    faSalesforce,
-  } from '@fortawesome/free-brands-svg-icons';
-
   const authorities = [
     {
       by: 'Mulesoft',
-      svg: `${base}/mule.svg`,
       border: 'border-sky-500',
       header: 'text-sky-500',
       certs: [
@@ -25,7 +19,6 @@
     },
     {
       by: 'Salesforce',
-      icon: faSalesforce,
       border: 'border-blue-500',
       header: 'text-blue-500',
       certs: [
@@ -60,7 +53,6 @@
     },
     {
       by: 'Oracle',
-      icon: faJava,
       border: 'border-rose-800',
       header: 'text-rose-800',
       certs: [

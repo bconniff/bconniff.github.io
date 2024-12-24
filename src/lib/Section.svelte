@@ -15,12 +15,8 @@
         <span>{title}</span>
       </h2>
       {#if subtitle}
-        <span class="text-sm italic text-zinc-800">{subtitle}</span>
+        <h3 class="text-sm italic text-zinc-600">{subtitle}</h3>
       {/if}
-    </div>
-
-    <div class="text-lg self-center {header}">
-      <slot name="icon" />
     </div>
 
     <div class="grow w-full sm:w-auto">
