@@ -8,7 +8,7 @@
 </script>
 
 <Card title={title}>
-  <ul class="grid md:grid-cols-2 xl:grid-cols-3 leading-loose">
+  <ul class="grid md:grid-cols-2 xl:grid-cols-3 print:grid-cols-3 leading-loose">
     {#each skills as skill}
       <li>{skill}</li>
     {/each}

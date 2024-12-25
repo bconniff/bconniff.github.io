@@ -37,3 +37,9 @@
 <Container name="Brendan Conniff" email="brendan.conniff@gmail.com">
   {@render children()}
 </Container>
+
+<style>
+  @page {
+    margin: 0.75in;
+  }
+</style>

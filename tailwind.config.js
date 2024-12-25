@@ -17,12 +17,12 @@ export default {
       '4xl': '2.5rem',
       '5xl': '3rem',
     },
-    maxWidth: {
-      25: '25%',
-      50: '50%',
-      75: '75%',
+    extend: {
+      screens: {
+        print: { raw: 'print' },
+        screen: { raw: 'screen' },
+      },
     }
-    
   },
 
   plugins: []

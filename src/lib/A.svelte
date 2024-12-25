@@ -13,6 +13,8 @@
     'hover:underline',
     'transition-colors',
     'duration-500',
+    'print:text-gray-800',
+    'print:italic',
   ];
 
   if (className) {

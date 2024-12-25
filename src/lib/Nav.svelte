@@ -9,7 +9,7 @@
   export let navs = [];
 </script>
 
-<ul class="text-white text-lg sm:text-sm text-center bg-black bg-opacity-50 backdrop-blur-sm sticky top-0 z-50">
+<ul class="text-white text-lg sm:text-sm text-center bg-black bg-opacity-50 backdrop-blur-sm sticky top-0 z-50 print:hidden">
   {#each navs as nav}
     {#if $page.url.pathname == nav.href}
       <li class="inline-block p-2 border-b-2 border-amber-300 text-amber-300">
