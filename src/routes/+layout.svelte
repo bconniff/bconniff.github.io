@@ -2,6 +2,7 @@
 
 <script>
   import '../app.css';
+  import './print.css';
   import Container from '$lib/Container.svelte';
   import Fa from 'svelte-fa';
   import Nav from '$lib/Nav.svelte';
@@ -37,9 +38,3 @@
 <Container name="Brendan Conniff" email="brendan.conniff@gmail.com">
   {@render children()}
 </Container>
-
-<style>
-  @page {
-    margin: 0.75in;
-  }
-</style>

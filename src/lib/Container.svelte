@@ -11,14 +11,16 @@
 </script>
 
 <div class="screen:md:w-[75%] screen:md:max-w-[1024px] screen:md:mx-auto">
-  <div class="screen:px-2 screen:md:px-8 my-6 print:mt-0 screen:text-right print:leading-tight">
+  <header class="screen:px-2 screen:md:px-8 my-6 print:mt-0 screen:text-right print:leading-tight">
     <h1 class="text-3xl screen:text-white font-light font-serif border-b screen:pb-1 screen:mb-1 border-white print:border-none">{name}</h1>
     <A inverse href="mailto:{email}">{email}</A>
-  </div>
+  </header>
 
-  <slot/>
+  <main>
+    <slot />
+  </main>
 
-  <div class="screen:px-2 screen:md:px-8 my-6 text-center screen:text-white">
+  <footer class="screen:px-2 screen:md:px-8 my-6 text-center screen:text-white">
     <div class="text-sm border-t pt-1 mt-1 border-white print:border-none">Copyright &copy; {year} {name}</div>
-  </div>
+  </footer>
 </div>

@@ -28,12 +28,12 @@
 {#if experiences.length}
   <Card title={title}>
     {#each experiences as experience}
-    <Section
-        divider
-        border={experience.border}
-        header={experience.header}
-        title={experience.name}
-        subtitle={experience.location}>
+      <Section
+          divider
+          border={experience.border}
+          header={experience.header}
+          title={experience.name}
+          subtitle={experience.location}>
 
         <ul slot="header-right" class="list-['–_'] pl-4 py-2 leading-relaxed screen:sm:grow screen:sm:list-none screen:sm:pl-0 screen:sm:py-0 screen:sm:leading-normal">
           {#each experience.positions as position}
@@ -61,7 +61,7 @@
             {/each}
           </ul>
         {/if}
-    </Section>
+      </Section>
     {/each}
   </Card>
 {/if}
