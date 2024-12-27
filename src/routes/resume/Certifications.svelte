@@ -20,7 +20,7 @@
         {#each authority.certs as cert}
           <li class="my-1">
             <span class="block sm:inline">{cert.title}</span>
-            <span class="block sm:inline text-sm screen:text-indigo-800 dark:text-indigo-300 ml-4 sm:ml-2">
+            <span class="block sm:inline text-sm screen:text-indigo-800 dark:text-indigo-300 print:italic ml-4 sm:ml-2">
               {cert.startDate}
               {#if cert.endDate}
                 <span class="screen:text-zinc-500">&ndash; {cert.endDate}</span>

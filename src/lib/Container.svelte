@@ -12,8 +12,8 @@
 
 <div class="screen:md:w-[75%] screen:md:max-w-[1024px] screen:md:mx-auto">
   <header class="screen:px-2 screen:md:px-8 my-6 print:mt-0 screen:text-right print:leading-tight">
-    <h1 class="text-3xl screen:text-white font-light font-serif border-b screen:pb-1 screen:mb-1 border-white print:border-none">{name}</h1>
-    <A inverse href="mailto:{email}">{email}</A>
+    <h1 class="text-3xl screen:text-white font-light font-serif border-b screen:pb-1 screen:mb-1 border-white print:border-none print:inline">{name}</h1>
+    <A inverse class="print:ml-4" href="mailto:{email}">{email}</A>
   </header>
 
   <main>

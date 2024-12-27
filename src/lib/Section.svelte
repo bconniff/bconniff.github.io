@@ -8,14 +8,14 @@
   export let divider = false;
 </script>
 
-<section class="border-l-4 screen:px-4 mt-4 print:border-none {border}">
+<section class="border-l-4 screen:px-4 mt-4 print:border-none break-inside-avoid-page {border}">
   <div class="flex flex-wrap print:border-none {divider ? 'border-b border-zinc-300 dark:border-zinc-600 screen:mb-2 screen:pb-2' : ''}">
     <hgroup class="leading-tight">
-      <h2 class="font-light text-xl font-serif print:text-black {header}">
+      <h2 class="font-light text-xl font-serif print:text-black print:inline {header}">
         <span>{title}</span>
       </h2>
       {#if subtitle}
-        <h3 class="text-sm italic screen:text-zinc-600 dark:text-zinc-300">{subtitle}</h3>
+        <small class="text-sm italic screen:text-zinc-600 dark:text-zinc-300 print:ml-4">{subtitle}</small>
       {/if}
     </hgroup>
 

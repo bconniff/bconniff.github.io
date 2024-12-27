@@ -90,12 +90,11 @@ export const work = [
       including Mulesoft, Azure, AWS, and custom Apex.`,
     ],
     achievements: [
-      'Technical architect in the real estate & banking space',
+      'Lead the developer & TA team',
       'Design and build integrations on Mulesoft & Azure',
-      'Integration with industry-specific platforms such as Yardi & MRI',
-      'Integration with ILS platforms (Zillow, Apartments.com, etc.)',
-      'Manage the developer & TA team',
-      'Sales engineering for real estate & banking projects',
+      'Industry-specific ERP platforms (Yardi, MRI)',
+      'Real estate ILS platforms (Zillow, Apartments.com)',
+      'Sales engineering for real estate & banking',
     ]
   },
   {
@@ -110,21 +109,18 @@ export const work = [
       { name: 'Associate Web Dev', startDate: '2012' }
     ],
     summary: [
-      `Starting as an Associate Developer, I grew to the position of
-      Senior Developer by demonstrating strong problem solving for
-      Trifecta's largest clients. In 2017, I took on the role of
-      Practice Lead for Trifecta’s Salesforce dev team, serving as a
-      technical lead and architect for my team across all Salesforce
-      projects.`
+      `I grew to the position of Senior Developer by demonstrating strong
+      problem solving for Trifecta's largest clients. In 2017, I took on
+      the role of Practice Lead for Trifecta’s Salesforce dev team,
+      serving as a technical lead and architect for my team across all
+      Salesforce projects.`
     ],
     achievements: [
-      'Designed & delivered solutions for Walt Disney World, Varsity Spirit and more',
-      'Managed a team of 8 developers and acted as a technical lead on projects',
-      'Assisted in technical discovery and sales engineering for sales team',
-      'Full stack development in Java, HTML, CSS, and Javascript',
-      'Salesforce development using Apex, Lightning, and Visualforce',
-      'Leveraged Heroku, AWS, and other cloud-based hosting providers',
-      'Designed and reviewed Sketch mockups with clients for custom UI/UX'
+      'Designed & delivered solutions for Disney World, Varsity Spirit',
+      'Managed a team of 8 developers',
+      'Assisted in technical scoping and sales engineering',
+      'Full stack dev in Java, HTML, CSS & Javascript',
+      'Salesforce dev using Apex, Lightning, and Visualforce',
     ]
   }
 ];
@@ -144,13 +140,10 @@ export const education = [
       }
     ],
     summary: [
-      `Completed a double-major in Physics and Computer Science, and
-      studied a full-spectrum of courses within the Computer Science
-      field including Compilers, Networking, Software Engineering and
-      Computability Theory.  My most valuable skill was learning the
-      ability to deeply analyze algorithms and analyze their complexity,
+      `Completed a double-major in Physics and Computer Science.
+      Learned to deeply analyze algorithms and their complexity,
       enabling me to develop code that is both efficient and easily
-      understood by my peers.`
+      understood by peers.`
     ],
     achievements: [
       '4.0 GPA in Physics, 3.8 in CS',
@@ -172,9 +165,9 @@ export const bio = {
     `I lead our team of developers and technical architects to build
     scalable solutions on the Salesforce platform in the banking and real
     estate industries, and integrate Salesforce with our clients' backend
-    systems.  With my background in Java web development, I bring strong
+    systems. With my background in web development, I bring strong
     technical expertise in both backend and frontend development. I enjoy
-    continuously learning new technologies and supporting my team support
-    throughout our sales and delivery process.`
+    continuously learning new technologies and supporting our team
+    throughout the sales and delivery process.`
   ]
 };
