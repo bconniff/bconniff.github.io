@@ -12,6 +12,7 @@ export const authorities = [
     border: 'border-sky-500',
     header: 'text-sky-500',
     certs: [
+      { title: 'UX Designer', startDate: '2025' },
       { title: 'AI Specialist', startDate: '2024' },
       { title: 'Financial Services Cloud Accredited', startDate: '2024' },
       { title: 'AI Associate', startDate: '2024' },
