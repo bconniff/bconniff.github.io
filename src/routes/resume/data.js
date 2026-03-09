@@ -15,7 +15,6 @@ export const authorities = [
       { title: 'UX Designer', startDate: '2025' },
       { title: 'AI Specialist', startDate: '2024' },
       { title: 'Financial Services Cloud Accredited', startDate: '2024' },
-      { title: 'AI Associate', startDate: '2024' },
       { title: 'Contact Center Accredited', startDate: '2024' },
       { title: 'Data Cloud Consultant', startDate: '2023' },
       { title: 'B2C Solution Architect', startDate: '2023' },
@@ -39,6 +38,7 @@ export const authorities = [
       { title: 'Platform Developer I', startDate: '2017' },
       { title: 'Platform App Builder', startDate: '2017' },
       { title: 'Administrator', startDate: '2015' },
+      { title: 'AI Associate', startDate: '2024', endDate: '2026', subtitle: 'Retired' },
       { title: 'Force.com Developer ', startDate: '2014', endDate: '2018', subtitle: 'Retired' },
     ]
   },
