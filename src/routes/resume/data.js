@@ -1,10 +1,10 @@
 export const authorities = [
   {
-    by: 'Mulesoft',
-    border: 'border-sky-500',
-    header: 'text-sky-500',
+    by: 'Anthropic',
+    border: 'border-orange-500',
+    header: 'text-orange-500',
     certs: [
-      { title: 'Mulesoft Developer I', startDate: '2023' },
+      { title: 'Claude Certified Architect - Foundations', startDate: '2026' },
     ]
   },
   {
@@ -40,6 +40,14 @@ export const authorities = [
       { title: 'Administrator', startDate: '2015' },
       { title: 'AI Associate', startDate: '2024', endDate: '2026', subtitle: 'Retired' },
       { title: 'Force.com Developer ', startDate: '2014', endDate: '2018', subtitle: 'Retired' },
+    ]
+  },
+  {
+    by: 'Mulesoft',
+    border: 'border-sky-500',
+    header: 'text-sky-500',
+    certs: [
+      { title: 'Mulesoft Developer I', startDate: '2023' },
     ]
   },
   {
